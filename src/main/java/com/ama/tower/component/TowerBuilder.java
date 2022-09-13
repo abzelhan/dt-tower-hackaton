@@ -4,12 +4,15 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 @Component
 public class TowerBuilder {
 
     private final static Map<Character, List<String>> wordByFirstLetter = null;
     private final static Map<Character, List<String>> wordByLastLetter = null;
+
+
 
     private void init(){
 
